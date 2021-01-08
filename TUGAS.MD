@@ -1,3 +1,5 @@
+Silahkan clone repository ini
+
 Buat fungsi di file
 ```/composables/use-axios.ts```
 
@@ -30,5 +32,7 @@ const {
 - error = response error dari server (apabila terjadi error).
 
 mohon re-redesign design yang telah ada, dan tampilkan indikator loading, error (jika terjadi), Anda hanya perlu buat 1 page saja.
+
+Jika tugas telah selesai silahkan informasikan kepada kami link repo Anda. terima kasih.
 
 dokumentasi API bisa dilihat di https://reqres.in/
