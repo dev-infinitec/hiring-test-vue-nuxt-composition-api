@@ -21,12 +21,14 @@ const {
   del,
 } = useAxios('/users')
 ```
+- value = response data dari API yang tersedia yang akan ditampilkan di list rendering.
+- get = Ambil semua data.
+- post = Buat data baru.
+- put = update data,
+- del = delete data.
+- loading = indikator request sedang berlangsung atau telah berhenti.
+- error = response error dari server (apabila terjadi error).
 
-get = Ambil semua data,
-post = Buat data baru,
-put = update data,
-del = delete data,
-loading = indikator request sedang berlangsung atau telah berhasil
-error = response error dari server (apabila terjadi error)
+mohon re-redesign design yang telah ada, dan tampilkan indikator loading, error (jika terjadi), Anda hanya perlu buat 1 page saja.
 
 dokumentasi API bisa dilihat di https://reqres.in/
