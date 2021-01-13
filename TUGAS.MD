@@ -1,6 +1,6 @@
 Silahkan clone repository ini
 
-Buat fungsi di file
+1. Buat fungsi di file
 ```/composables/use-axios.ts```
 
 yang mana nanti akan digunakan di pages/index.vue, penulisan diwajibkan menggunakan typescript dan vue composition API,
@@ -36,3 +36,15 @@ mohon re-redesign design yang telah ada, dan tampilkan indikator loading, error 
 Jika tugas telah selesai silahkan informasikan kepada kami link repo Anda. terima kasih.
 
 dokumentasi API bisa dilihat di https://reqres.in/
+
+
+
+2. Diberikan n, ambil jumlah dari digit n. Jika nilai tersebut memiliki lebih dari satu digit, lanjutkan mengurangi dengan cara ini sampai satu digit dihasilkan. Masukan/inputan berupa bilangan bulat non-negatif.
+
+Contoh
+    16  -->  1 + 6 = 7
+   942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
+132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
+
+soal no.2 bisa pakai javascript biasa (tanpa framework)
